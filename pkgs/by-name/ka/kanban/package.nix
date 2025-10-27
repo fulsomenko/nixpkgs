@@ -13,10 +13,10 @@ rustPlatform.buildRustPackage rec {
     owner = "fulsomenko";
     repo = "kanban";
     rev = "v${version}";
-    hash = "sha256-112i54zhxq4rdvpgq760c1kkl1vk2vxmcfqdc0p3kwac14zl5dc3";
+    hash = "sha256-m0j5ZaVyd2HKF29rM0mXGhanzgPnZGAGbiHUYIhHa90=";
   };
 
-  cargoHash = "sha256-1iyisbdimqv6wv1x1kfdwcvwjpaimiwqjqjbk959ibnfh6fq87qn";
+  cargoHash = "sha256-fWo80fQqKBMeaWQHeMeix5fVwWzhXCaHAPCU+sdGCRg=";
 
   meta = {
     description = "A terminal-based project management solution";
